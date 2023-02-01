@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>
+        <h1 class="text-red">
             Work in Progress da componente
         </h1>
     </div>
@@ -10,6 +10,7 @@
 <script>
 
 export default{
+
     name: "WorkInProgress"
 }
 
