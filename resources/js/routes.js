@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 Vue. use(VueRouter)
 
 //import dei componenti che fungono da Pagine
-
+import HomePage from './views/pages/HomePage.vue'
 import AboutUs from './views/pages/AboutUs.vue'
 
 
@@ -18,6 +18,11 @@ const router = new VueRouter({
 
     routes: [
 
+        {
+            path: '/',
+            name: 'home',
+            component: HomePage
+        },
         {
             path: '/about-us',
             name: 'about-us',
