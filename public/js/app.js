@@ -2017,7 +2017,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_Header_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Header.vue */ "./resources/js/components/Header.vue");
+/* harmony import */ var _components_Header_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Header.vue */ "./resources/js/components/Header.vue");
 /* harmony import */ var _components_posts_PostsList_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/posts/PostsList.vue */ "./resources/js/components/posts/PostsList.vue");
 
 // import WorkInProgress from "../components/WorkInProgress.vue"
@@ -2028,7 +2028,7 @@ __webpack_require__.r(__webpack_exports__);
     //Qui inseriamo i futuri componenti per questa views
     // WorkInProgress,
     PostsList: _components_posts_PostsList_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    Header: _components_Header_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+    Header: _components_Header_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
 });
 

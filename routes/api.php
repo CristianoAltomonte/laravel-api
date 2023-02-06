@@ -21,7 +21,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 //localhost:8000/api/posts
 // Route::get('/posts', 'Api\PostController@index');
 
-//localhost:8000/api/posts
-Route::namespace('Api')->prefix('/posts')->group(function(){
+Route::namespace('Api')->prefix('/posts')->group(function () {
+
+    //localhost:8000/api/posts
     Route::get('/', 'PostController@index');
+    //localhost:8000/api/posts/12
+    Route::get('/{id}', 'PostController@show');
 });
