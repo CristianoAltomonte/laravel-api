@@ -34,5 +34,5 @@ Route::namespace('Api')->prefix('/tags')->group(function(){
     //localhost:8000/api/tags
     Route::get('/', 'TagsController@index');
     //localhost:8000/api/tags/carne
-    // Route::get('/{name}', 'TagsController@show');
+    Route::get('/{name}', 'TagsController@show');
 });
